@@ -14,7 +14,7 @@
 
 <!-- SCRIPTS -->
 <script type="text/javascript" src="mini-nav-script.js"></script>
-<script type="text/javascript" src="one-play-to-rule-them-all.js"></script>
+<script type="text/javascript" src="one-player-to-rule-them-all.js"></script>
 <script src="video.js"></script>
 
 <script>videojs.options.flash.swf = "video-js.swf";</script>
@@ -27,14 +27,14 @@
 
 <div id="bouton-1">
   <h3> Test bouton-1 </h3>
-<a class="videoA - AFFICHE" href="javascript:CacheTout( 'div' );javascript:AfficheCache( 'div', '1' );javascript:changeMySrc(1)">VIDEO A - AFFICHE</a>
-<a class="videoB - CACHE" onclick="changeMySrc(2)" href="javascript:CacheTout( 'div' );javascript:AfficheCache( 'div', '2' )">VIDEO B - CACHE</a>
+<a class="videoA" href="javascript:CacheTout( 'div' );javascript:AfficheCache( 'div', '1' );javascript:changeMySrc(1)">VIDEO A</a>
+<a class="videoB" onclick="changeMySrc(2)" href="javascript:CacheTout( 'div' );javascript:AfficheCache( 'div', '2' )">VIDEO B</a>
 </div>
 
-<div id="videos">
+<div id="video-section">
 <div id="div1" name="div1" >
 
-  <video id="example_video_1" class="video-js vjs-covimages1-skin" controls preload="none"  width="1280" height="528"
+  <video id="video1" class="video-js vjs-covimages1-skin" controls preload="none"  width="1280" height="528"
       poster="http://oasisdici.org/wp-content/uploads/2015/11/IMG_51181.jpg"
       data-setup="{}">
     <source src="http://oasisdici.org/wp-content/uploads/2015/12/HOME-VIDEO-ROUTE.mp4" type='video/mp4' />
@@ -43,10 +43,11 @@
     <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
     <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-
-
   </video> </div>
-<div id="div2" name="div2" class="cachediv"><video id="example_video_1" class="video-js vjs-covimages2-skin" controls preload="none"  width="1280" height="528"
+
+<div id="div2" name="div2" class="cachediv">
+
+  <video id="video1" class="video-js vjs-covimages2-skin" controls preload="none"  width="1280" height="528"
       poster="http://oasisdici.org/wp-content/uploads/2015/11/paille-hd.jpg"
       data-setup="{}">
     <source src="http://oasisdici.org/wp-content/uploads/2015/12/HOME-VIDEO-ROUTE.mp4" type='video/mp4' />
