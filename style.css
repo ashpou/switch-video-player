@@ -1,0 +1,54 @@
+/* SCRIPT CACHE LA DIV */
+
+.cachediv {
+visibility: hidden;
+overflow: hidden;
+height: 1px;
+margin-top: -1px;
+position: relative;
+}
+
+/* FONTS */
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'),  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* HEADERS */
+
+
+h1,h2,h3 {
+	font-family: 'Montserrat';
+}
+
+
+/* BODY */
+
+body {
+	background-color: #F7CAC9;
+
+	 }
+
+/* ? */
+
+#videos {
+
+	border: 2px solid red;
+}
+
+#bouton-1 {
+	border-color: 5px solid blue;
+}
+
+#div1 {
+
+	background-color: green;
+}
+
+
+
