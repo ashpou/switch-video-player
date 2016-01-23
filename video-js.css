@@ -90,8 +90,8 @@ The default control bar that is a container for most of the controls.
   /* Height includes any margin you want above or below control items */
   height: 3.0em;
   /* background-color-with-alpha */
-  background-color: #92A8D1;
-  background-color: #92A8D1
+  background-color: #FD3315;
+  background-color: #FD3315;
 }
 /* Show the control bar only once the video has started playing */
 .vjs-covimages1-skin.vjs-has-started .vjs-control-bar {
@@ -459,7 +459,7 @@ easily in the skin designer. http://designer.videojs.com/
   width: 4em;
   height: 2.6em;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: center;
   cursor: pointer;
   opacity: 1;
   /* Need a slightly gray bg so it can be seen on black backgrounds */
@@ -1019,15 +1019,6 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 
 
 
-
-
-
-
-
-
-
-
-
 /*!
 Video.js Default Styles (http://videojs.com)
 Version 4.12.11
@@ -1042,10 +1033,11 @@ e.g. <video class="video-js my-skin-name">
 */
 
 /* STYLE 2 */
+/* USING CUSTOM STYLE TO DIFFERENCIATE THE VIDEOS */
 
 
 .vjs-covimages2-skin {
-  color: #F7CAC9;
+  color: #3D55FD ;
 }
 /* Custom Icon Font
 --------------------------------------------------------------------------------
